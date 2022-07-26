@@ -33,8 +33,8 @@ export default function SearchGithubUser(props: PageProps) {
 
       {user?.name && (
         <section>
-          <p>hello {props.data.login}</p>
-          <img src={props.data.avatar_url} alt={props.data.login}></img>
+          <p>hello {user.login}</p>
+          <img src={user.avatar_url} alt={user.login}></img>
         </section>
       )
       }
