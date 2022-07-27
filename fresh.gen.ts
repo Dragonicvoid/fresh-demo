@@ -7,10 +7,12 @@ import * as $1 from "./routes/_404.tsx";
 import * as $2 from "./routes/_middleware.tsx";
 import * as $3 from "./routes/about.jsx";
 import * as $4 from "./routes/api/joke.ts";
-import * as $5 from "./routes/index.tsx";
-import * as $6 from "./routes/users/_middleware.tsx";
-import * as $7 from "./routes/users/github.tsx";
-import * as $$0 from "./islands/SearchGithubUser.tsx";
+import * as $5 from "./routes/countdown/index.tsx";
+import * as $6 from "./routes/index.tsx";
+import * as $7 from "./routes/users/_middleware.tsx";
+import * as $8 from "./routes/users/github.tsx";
+import * as $$0 from "./islands/Countdown.tsx";
+import * as $$1 from "./islands/SearchGithubUser.tsx";
 
 const manifest = {
   routes: {
@@ -19,12 +21,14 @@ const manifest = {
     "./routes/_middleware.tsx": $2,
     "./routes/about.jsx": $3,
     "./routes/api/joke.ts": $4,
-    "./routes/index.tsx": $5,
-    "./routes/users/_middleware.tsx": $6,
-    "./routes/users/github.tsx": $7,
+    "./routes/countdown/index.tsx": $5,
+    "./routes/index.tsx": $6,
+    "./routes/users/_middleware.tsx": $7,
+    "./routes/users/github.tsx": $8,
   },
   islands: {
-    "./islands/SearchGithubUser.tsx": $$0,
+    "./islands/Countdown.tsx": $$0,
+    "./islands/SearchGithubUser.tsx": $$1,
   },
   baseUrl: import.meta.url,
 };
