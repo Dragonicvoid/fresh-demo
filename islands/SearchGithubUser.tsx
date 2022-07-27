@@ -5,10 +5,10 @@ import { PageProps} from "$fresh/server.ts";
 import { tw } from "@twind";
 
 export default function SearchGithubUser(props: PageProps) {
-  const [user, setUser] = useState()
-  const [query, setQuery] = useState()
+  const [user, setUser] : any = useState()
+  const [query, setQuery] : any = useState()
 
-  async function onSubmit(e){
+  async function onSubmit(e: any){
     e.preventDefault()
     const res = await fetch('/users/github/', {
         method:"POST",
@@ -20,7 +20,7 @@ export default function SearchGithubUser(props: PageProps) {
     }
   }
 
-  function handleInput(e){
+  function handleInput(e: any){
     setQuery(e.target.value)
   }
 

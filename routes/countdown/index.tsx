@@ -5,10 +5,10 @@ import Layout from "../../components/Layout.tsx";
 
 export default function Page() {
   const date = new Date();
-  date.setHours(date.getHours() + 1);
+  date.setMinutes(date.getMinutes() + 1);
   return (
     <Layout>
-      The big event is happening <Countdown />.
+      The big event is happening <Countdown target={date.toISOString()} />.
     </Layout>
   );
 }
