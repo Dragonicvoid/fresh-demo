@@ -1,10 +1,9 @@
 /** @jsx h */
 import { h } from "preact";
 import { useState } from "preact/hooks";
-import { PageProps} from "$fresh/server.ts";
 import { tw } from "@twind";
 
-export default function SearchGithubUser(props: PageProps) {
+export default function SearchGithubUser() {
   const [user, setUser] : any = useState()
   const [query, setQuery] : any = useState()
 

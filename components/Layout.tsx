@@ -2,7 +2,7 @@
 import { h } from "preact";
 import { tw } from "@twind";
 
-export default function Layout({children}:any) {
+export default function Layout({children}: any) {
   return (
     <div>
         <nav class={tw`flex items-center justify-center bg-red-300`}>

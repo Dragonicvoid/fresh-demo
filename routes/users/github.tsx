@@ -6,6 +6,7 @@ import SearchGithubUser from "../../islands/SearchGithubUser.tsx";
 
 export const handler: Handlers = {
   async GET(req, ctx){
+    console.log(ctx.state.data)
     const url = new URL(req.url)
     const query = url.searchParams.get('query')
 
@@ -26,7 +27,6 @@ export const handler: Handlers = {
     }
 
     const user = await res.json();
-    console.log(user)
     return new Response(JSON.stringify(user));
   }
 }
