@@ -8,9 +8,10 @@ import * as $2 from "./routes/_middleware.tsx";
 import * as $3 from "./routes/about.jsx";
 import * as $4 from "./routes/api/joke.ts";
 import * as $5 from "./routes/countdown/index.tsx";
-import * as $6 from "./routes/index.tsx";
-import * as $7 from "./routes/users/_middleware.tsx";
-import * as $8 from "./routes/users/github.tsx";
+import * as $6 from "./routes/hello/index.tsx";
+import * as $7 from "./routes/index.tsx";
+import * as $8 from "./routes/users/_middleware.tsx";
+import * as $9 from "./routes/users/github.tsx";
 import * as $$0 from "./islands/Countdown.tsx";
 import * as $$1 from "./islands/SearchGithubUser.tsx";
 
@@ -22,9 +23,10 @@ const manifest = {
     "./routes/about.jsx": $3,
     "./routes/api/joke.ts": $4,
     "./routes/countdown/index.tsx": $5,
-    "./routes/index.tsx": $6,
-    "./routes/users/_middleware.tsx": $7,
-    "./routes/users/github.tsx": $8,
+    "./routes/hello/index.tsx": $6,
+    "./routes/index.tsx": $7,
+    "./routes/users/_middleware.tsx": $8,
+    "./routes/users/github.tsx": $9,
   },
   islands: {
     "./islands/Countdown.tsx": $$0,

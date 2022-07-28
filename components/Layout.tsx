@@ -18,6 +18,9 @@ export default function Layout({children}: any) {
             <div>
               <a class={tw`block py-2 pr-4 pl-3`} href = "/countdown">Countdown</a>
             </div>
+            <div>
+              <a class={tw`block py-2 pr-4 pl-3`} href = "/hello">Hello</a>
+            </div>
         </nav>
       {children}
     </div>
